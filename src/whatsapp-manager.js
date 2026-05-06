@@ -39,9 +39,8 @@ async function connectAccount(index, phoneNumber) {
   const client = new Client({
     authStrategy: new LocalAuth({ clientId: `wa-account-${index + 1}` }),
     puppeteer: {
-      headless: true,
-      executablePath: findChromium(),
-      args: [
+  headless: true,
+  args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
         "--disable-dev-shm-usage",
