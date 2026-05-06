@@ -1,0 +1,16 @@
+{
+  "name": "wa-broadcast-bot",
+  "version": "2.0.0",
+  "description": "Telegram bot to broadcast messages across WhatsApp groups with scheduling",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start index.js --name wa-broadcast-bot"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "whatsapp-web.js": "^1.34.7",
+    "puppeteer": "^24.42.0",
+    "express": "^4.21.2"
+  }
+}
