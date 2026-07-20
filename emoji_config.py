@@ -361,7 +361,7 @@ BTN_EMOJI_PREFIX = {
     # (Button labels have NO leading unicode emoji so premium ones can shine.)
 
     # User Buy-Account flow
-    "otp_c|":       "",   # country pick  (label already has flag)
+    "otp_c|":       "5294236848103643477",   # country pick  (label already has flag)
     "otp_cp|":      "",   # countries pagination
     "otp_y|":       "",   # year+price row
     "otp_buy1|":    "",   # Buy 1 button
